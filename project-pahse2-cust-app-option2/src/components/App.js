@@ -77,7 +77,7 @@ export function App(params) {
   };
 
   return (
-    <div>
+    <div id="app">
       <CustomerList 
       customers={customers} 
       formObject={formObject}

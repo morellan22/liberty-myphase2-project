@@ -3,6 +3,11 @@ body {
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: column;
 }
 
 code {
@@ -32,3 +37,6 @@ a{
 #root{
   width:fit-content;
 }
+
+
+
