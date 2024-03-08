@@ -61,8 +61,8 @@ export function App(params) {
   let onSaveClick = function () {
     log("in onSaveClick()");
     let messageValidation = CustomerFormValidation(formObject);
-    if(messageValidation.join().length>0){
-      alert(messageValidation.join("\n"));
+    if(messageValidation.length>0){
+      alert(messageValidation);
     }
     else{
     if (mode === "Add") {
